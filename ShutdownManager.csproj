@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\shutdown-manager.ico</ApplicationIcon>
+    <Product>Shutdown Manager</Product>
+    <Company>GauravM37</Company>
+    <AssemblyName>ShutdownManager</AssemblyName>
+    <RootNamespace>ShutdownManager</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>GauravM37</Authors>
+    <Description>Shutdown Manager is a native Windows application for scheduling power operations.</Description>
+    <PublishTrimmed>false</PublishTrimmed>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\github-mark.png" />
+  </ItemGroup>
+</Project>
