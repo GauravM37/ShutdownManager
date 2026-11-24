@@ -16,10 +16,6 @@
 - **Dashboard** — View schedules and upcoming executions from one place.
 - **Settings** — Configure application behavior and countdown preferences.
 
-## Screenshots
-
-_Add application screenshots here._
-
 ## Requirements
 
 - Windows 10 or Windows 11
@@ -56,26 +52,10 @@ cd ShutdownManager
 dotnet build .\ShutdownManager\ShutdownManager.csproj -c Release
 ```
 
-### Publish a Self-Contained Single-File Build
-
-Run:
-
-```powershell
-dotnet publish .\ShutdownManager\ShutdownManager.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
-```
-
-The published application will be available in:
-
-```text
-ShutdownManager\bin\Release\net10.0-windows\win-x64\publish\
-```
-
-The publish folder contains the executable and any additional files required by the application.
-
 ## Configuration and Usage
 
 1. Launch **ShutdownManager.exe**.
-2. Create a schedule from the dashboard.
+2. Create a schedule.
 3. Select the required power action.
 4. Choose a one-time, daily, or weekly schedule.
 5. Configure the date, time, or weekdays as applicable.
